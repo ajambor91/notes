@@ -1,0 +1,5 @@
+To run the web application, execute the run.ps1 file to compile SCSS files and build Docker containers.
+Run docker-compose up -d to only run containers without compiling files
+
+
+To run the desktop app install all dependencies from destkop/libs

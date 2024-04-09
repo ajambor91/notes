@@ -1,0 +1,17 @@
+node_modules/
+**/node_modules/
+
+.venv/
+**/.venv
+
+.idea/
+
+**/.idea
+
+desktop/build/
+desktop/dist/
+
+db_data/
+
+package-lock.json
+**/package-lock.json
