@@ -1,8 +1,13 @@
 <section class="container mt-2">
 <div class="nav d-flex justify-content-end">
-        <a href="http://notes.local/app">Aplikacja</a>
+    <a href="http://notes.local/app">
+    <button class="round-button">
+            Aplikacja
+        </button>
+    </a>
     </div>
 </section>
 
-
-    <h1 class="test">{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}</h1>
+    <div class="gm-container">
+    <h1>{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}</h1>
+    </div>

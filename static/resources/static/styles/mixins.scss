@@ -1,0 +1,13 @@
+@mixin gm {
+  background: rgba(255, 255, 255, 0.1); /* Kolor tła z przezroczystością */
+  border-radius: 20px; /* Zaokrąglenie narożników */
+  border: 4px solid rgba(255, 255, 255, 0.2); /* Gruba ramka */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); /* Cień */
+  backdrop-filter: blur(10px); /* Rozmycie tła */
+  padding: 20px; /* Odstęp wewnątrz kontenera */
+}
+
+@mixin mt {
+  font-family: Roboto;
+  color: #fff;
+}

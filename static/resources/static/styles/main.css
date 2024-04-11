@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Nazwa Motywu
 Theme URI: http://adres-strony.com/motyw
@@ -9,12 +10,42 @@ License: Licencja
 License URI: http://adres-licencji.com
 Text Domain: text-domain
 */
-h1, h2, h3, h4, h5, h6 {
-  color: red !important;
+@font-face {
+  font-family: Roboto;
+  src: url("http://notes.local/static/stylesRoboto-Regular") format("ttf");
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("http://notes.local/static/stylesRoboto-Medium") format("ttf");
+}
+html,
+body {
+  background: rgb(90, 90, 208);
+  background: linear-gradient(90deg, rgb(90, 90, 208) 0%, rgb(203, 140, 255) 30%, rgb(239, 127, 118) 45%, rgb(242, 132, 110) 55%, rgb(231, 232, 132) 100%);
 }
 
-.test {
-  color: red !important;
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+  color: #fff;
+}
+
+.gm.container {
+  background: rgba(255, 255, 255, 0.1); /* Kolor tła z przezroczystością */
+  border-radius: 20px; /* Zaokrąglenie narożników */
+  border: 4px solid rgba(255, 255, 255, 0.2); /* Gruba ramka */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); /* Cień */
+  backdrop-filter: blur(10px); /* Rozmycie tła */
+  padding: 20px; /* Odstęp wewnątrz kontenera */
+  font-family: Roboto;
+  color: #fff;
+}
+
+.round-button {
+  font-family: Roboto;
+  color: #fff;
+  border: #fff solid 2px;
+  background: transparent;
+  border-radius: 25%;
 }
 
 /*# sourceMappingURL=main.css.map */

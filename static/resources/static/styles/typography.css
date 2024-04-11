@@ -1,3 +1,10 @@
-
+@font-face {
+  font-family: Roboto;
+  src: url("http://notes.local/static/stylesRoboto-Regular") format("ttf");
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("http://notes.local/static/stylesRoboto-Medium") format("ttf");
+}
 
 /*# sourceMappingURL=typography.css.map */

@@ -1,1 +1,11 @@
 $header-color: #fff;
+$font-path: 'http://notes.local/static/styles';
+@font-face {
+  font-family: Roboto;
+  src: url($font-path + 'Roboto-Regular') format('ttf');
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url($font-path + 'Roboto-Medium') format('ttf');
+}
